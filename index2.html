@@ -8,28 +8,29 @@
     <title>Page Two</title>
 </head>
 <body>
+<div class="center-screen" >
+    <div id="form" class="custom-select" style="width:200px;">
+        <form method="POST" action="TestServlet">
+            <p class="names">
+                First Name
+                <input type="text" name="firstname">
+            </p>
+            <p class="names">
+                Email
+                <input type="text" name="email">
 
-<div id="form">
-    <form method="POST" action="">
-        <p id="name">
-            First Name
-            <input type="text" name="firstname">
-        </p>
-        <p id="email">
-            Email
-            <input type="text" name="email">
-        </p>
+            </p>
 
-        <select name="options">
-                <option value=""></option>
-                <option value="html">HTML</option>
-                <option value="plain">Plain Text</option>
-                <option value="xml">XML</option>
-        </select>
-        <input type="submit" value="Submit">
-    </form>
+                <select name="format">
+                        <option value=""></option>
+                        <option value="html">HTML</option>
+                        <option value="plain">Plain Text</option>
+                        <option value="xml">XML</option>
+                </select>
+                <input type="submit" value="Submit">
+        </form>
+    </div>
 </div>
-
 <div id="hyperlink">
     <a href="index.html">Link to index</a>
 </div>

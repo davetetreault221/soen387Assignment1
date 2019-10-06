@@ -8,29 +8,30 @@
     <title>Page One</title>
 </head>
 <body>
+ <div>
+    <div id="form">
+        <form method="GET" action="TestServlet">
+            <p class="text">
+                First Name
+                <input type="text" name="firstname">
+            </p>
+            <p class="text">
+                Email
+                <div id="email" class="center-screen" >
+                    <input  type="text" name="email">
+                </div>
+            </p>
 
-<div id="form">
-    <form method="GET" action="TestServlet">
-        <p>
-            First Name
-            <input type="text" name="firstname">
-        </p>
-        <p>
-            Email
-            <input type="text" name="email">
-
-        </p>
-
-        <select name="format">
-                <option value=""></option>
-                <option value="html">HTML</option>
-                <option value="plain">Plain Text</option>
-                <option value="xml">XML</option>
-        </select>
-        <input type="submit" value="Submit">
-    </form>
+            <select name="format">
+                    <option value=""></option>
+                    <option value="html">HTML</option>
+                    <option value="plain">Plain Text</option>
+                    <option value="xml">XML</option>
+            </select>
+            <input type="submit" value="Submit">
+        </form>
+    </div>
 </div>
-
 <div id="hyperlink">
     <a href="index2.html">Link to index2</a>
 </div>
