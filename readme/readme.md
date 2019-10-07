@@ -3,10 +3,16 @@
 ## Dave Tetreault 
 	-Putting together Task 1
 	-Original production of readme.md
+	-CSS Creation for Task 1
 	-XML representation
 	-Curl Command creation and response recording 
-## Xavier
-## Jon
+## Xavier Vani-Charron
+	-POST and GET method parsing for Task 1
+	-Static HTML pages for Task 2
+	-HTML and Plain Text rendering for Task 1
+	-Complete creation of HTTP server for Task 3
+	-curl command generation for the HTTP server Task 4
+## Jonathan M
 
 
 ## How do you run the HttpServer class in Task 3?
